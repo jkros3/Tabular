@@ -1,4 +1,4 @@
-# tabular
+# Tabular
 Simple library that creates a table for your data in python
 
 Instructions:
