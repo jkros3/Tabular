@@ -20,7 +20,7 @@ class table:
         self.rows.append(data)
 
     def center_align(self, string: str, max_width: int) -> str:
-        
+        '''Takes a string and a width to align the text to the center of the column'''
         new_string = string
         string_length = len(string)
 
