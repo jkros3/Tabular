@@ -16,6 +16,7 @@ class table:
             self.column_widths[i] = len(self.header[i])
     
     def new_row(self, data: list):
+        '''Takes a list as a parameter to generate a new row for the table'''
         self.rows.append(data)
 
     def center_align(self, string: str, max_width: int) -> str:
