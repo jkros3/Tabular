@@ -34,7 +34,7 @@ class table:
         return new_string
       
     def display_table(self):
-        
+        '''Take the header and all rows generated to create a table'''
         #Get each item of data and compare the length of it to the initial width of the column and sets the max width to the column
         for column in range(len(self.column_widths)):
             for data in range(len(self.rows)):
